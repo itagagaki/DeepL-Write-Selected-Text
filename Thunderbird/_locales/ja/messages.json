@@ -1,0 +1,15 @@
+{
+  "app_name": { "message": "DeepL Writeで文章を改善" },
+  "app_desc": { "message": "選択テキストの文章力をDeepL Writeで改善させます" },
+  "app_author": { "message": "板垣史彦" },
+
+  "menuItem": { "message": "DeepL Writeで改善" },
+
+  "open_in": { "message": "DeepL Writeを" },
+  "open_in_post": { "message": "で開く．" },
+
+  "tab": { "message": "タブ" },
+  "window": { "message": "新しいウィンドウ" },
+  "width": { "message": "幅" },
+  "height": { "message": "高さ" }
+}

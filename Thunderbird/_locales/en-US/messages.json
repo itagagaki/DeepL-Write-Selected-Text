@@ -1,0 +1,15 @@
+{
+  "app_name": { "message": "DeepL-Write for selected text" },
+  "app_desc": { "message": "Unofficial DeepL Write extension for Thunderbird." },
+  "app_author": { "message": "Itagaki Fumihiko" },
+
+  "menuItem": { "message": "Improve with DeepL Write" },
+
+  "open_in": { "message": "Open DeepL Write in a" },
+  "open_in_post": { "message": "." },
+
+  "tab": { "message": "tab" },
+  "window": { "message": "new window" },
+  "width": { "message": "width" },
+  "height": { "message": "height" }
+}

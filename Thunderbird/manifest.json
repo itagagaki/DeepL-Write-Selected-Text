@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_app_name__",
+  "description": "__MSG_app_desc__",
+  "version": "1.0.0",
+  "author": "__MSG_app_author__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "deepl-write@itagagaki",
+      "strict_min_version": "128.0",
+      "strict_max_version": "128.*"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "permissions": [
+    "menus",
+    "storage",
+    "webNavigation",
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*.deepl.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "experiment_apis": {
+    "Helper": {
+      "schema": "helper.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["Helper"]],
+        "script": "helper.js"
+      }
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}
