@@ -2,13 +2,12 @@
   "manifest_version": 3,
   "name": "__MSG_app_name__",
   "description": "__MSG_app_desc__",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "__MSG_app_author__",
   "browser_specific_settings": {
     "gecko": {
       "id": "deepl-write@itagagaki",
-      "strict_min_version": "128.0",
-      "strict_max_version": "128.*"
+      "strict_min_version": "128.0"
     }
   },
   "default_locale": "en-US",
